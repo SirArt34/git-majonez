@@ -48,3 +48,68 @@
   710  touch history.txt
   711  history
   712  history | tail -n 50 >> history.txt
+  664* 
+  665  vim main.cpp
+  666  git add main.cpp
+  667  git status
+  668  git commit -a"Initial commit"
+  669  git commit -m"Initial commit"
+  670  gitk
+  671  gitk &
+  672  vim main.cpp
+  673  git status
+  674  git add .
+  675  git status
+  676  git commit -m"Farewell changed"
+  677  git status
+  678  git remote add origin https://github.com/SirArt34/git-majonez.git
+  679  git status
+  680  git log
+  681  git push -u origin master
+  682  git checkout -b cs
+  683  git branch
+  684  git log
+  685  git show HEAD
+  686  git reflog
+  687  git reset 212331e
+  688  git reflog
+  689  git show HEAD
+  690  git reset 0653612
+  691  git log
+  692  git reflog
+  693  git head
+  694  git show HEAD
+  695  git log
+  696  vim main.cpp
+  697  add .
+  698  git add .
+  699  git commit -m"Greetings"
+  700  git branch
+  701  git push origin cs
+  702  git branch main
+  703  git branch
+  704  git checkout master
+  705  git merge cs
+  706  git status
+  707  git add .
+  708  git status
+  709  ls
+  710  touch history.txt
+  711  history
+  712  history | tail -n 50 >> history.txt
+  713  git status
+  714  git commit main.cpp
+  715  git status
+  716  git add history.txt
+  717  git status
+  718  git checkout cs
+  719  git status
+  720  history | tail -n 57
+  721  history | tail -n 58 >> history.txt
+  722  git status
+  723  git add history.txt
+  724  git commit -m"History added"
+  725  git push
+  726  git checkout master
+  727  git status
+  728  history | tail -n 65 >> history.txt
