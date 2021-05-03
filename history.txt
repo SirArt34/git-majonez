@@ -1,3 +1,4 @@
+  662  mkdir git-majonez
   663  touch main.cpp
   664* 
   665  vim main.cpp
