@@ -1,6 +1,6 @@
   662  mkdir git-majonez
   663  touch main.cpp
-  664* 
+  664  git init
   665  vim main.cpp
   666  git add main.cpp
   667  git status
